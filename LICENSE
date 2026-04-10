@@ -1,15 +1,58 @@
 Copyright (c) 2026 rzr. All Rights Reserved.
 
-This mod and its contents are the intellectual property of rzr.
+This mod (QuickSnap), its source code, compiled binaries, assets, and associated
+infrastructure including screenshot.rest and quicksnap.pics are the exclusive
+intellectual property of rzr.
 
-You're allowed to include this mod in modpacks as long as the modpack is
-free to download and the mod itself isn't modified.
+PERMITTED:
+- You may include this mod in modpacks provided the modpack is free to download
+  and the mod is included unmodified in its original distributed form.
+- You may use the mod for personal use.
 
-Everything else is off limits. That means no reuploading the jar, no
-decompiling or reverse engineering the code, no publishing modified versions
-under a different name, and no claiming any part of this as your own work.
+PROHIBITED:
+- Reuploading or redistributing the mod jar or any part of it outside of the
+  above modpack exception, on any platform, with or without modification.
+- Decompiling, reverse engineering, or otherwise attempting to extract the
+  source code or any proprietary logic from this mod, including but not limited
+  to authentication mechanisms, upload logic, or key material.
+- Publishing modified versions of this mod under any name.
+- Claiming any part of this mod, its design, or its infrastructure as your
+  own work.
+- Using any part of this mod's code, assets, or infrastructure as a basis
+  for a competing or derivative product.
+- Accessing, scraping, or abusing the associated services (screenshot.rest,
+  quicksnap.pics) in any unauthorized manner.
+
+DATA & NETWORK DISCLOSURE:
+This mod is client-side only and makes outbound network requests solely when
+you choose to use its upload or sharing features. Specifically:
+
+- When you upload a screenshot using the screenshot.rest provider, the image
+  is transmitted to and stored on screenshot.rest, a service operated by rzr.
+  Uploaded images are publicly accessible via their direct URL.
+- When any upload or clipboard copy action completes, the mod sends an
+  anonymous usage count (provider name only, no image data, no personal
+  information) to screenshot.rest for aggregate statistics displayed on
+  quicksnap.pics. No identifying information is collected or stored.
+- When using third-party providers (Litterbox, Imgur, or a custom endpoint),
+  your image is sent directly to that provider and is subject to their own
+  terms of service. rzr has no control over third-party providers.
+- The mod does not collect usernames, UUIDs, IP addresses, or any personally
+  identifiable information.
+
+CONTENT POLICY:
+By uploading content to screenshot.rest you confirm the content is your own
+and does not violate any applicable laws or platform policies. rzr reserves
+the right to remove any uploaded content at any time without notice.
+
+UPDATES & AVAILABILITY:
+rzr reserves the right to modify, discontinue, or update the mod or its
+associated services at any time without notice. Continued use of the mod
+constitutes acceptance of any such changes.
 
 Unauthorized redistribution may be reported to the relevant platform for
 removal under the DMCA or equivalent copyright law.
 
-This mod is provided as-is with no warranty.
+This mod and its associated services are provided as-is with no warranty of
+any kind. The author is not liable for any damages arising from use of this
+mod or its services.
